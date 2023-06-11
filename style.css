@@ -2,11 +2,39 @@ body {
     background-color: black;
 }
 
+.logo {
+    text-align: center;
+}
+
 h1 {
     color: white;
-    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
 }
 
 .name {
-    color: rgba(128, 128, 128, 0.24);
+    display: inline-block;
+    color: rgba(128, 128, 128, 0.945);
+}
+
+.Imagem img {
+    max-width: 200px;
+    min-width: 100px;
+    width: 20%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+.Perfil {
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color:white;
+    padding: 5px 18px 5px 18px;
+    font-size: 15px;
 }
