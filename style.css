@@ -1,6 +1,10 @@
+*{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 body {
     background-color: black;
-
+    
 }
 
 .logo {
@@ -8,10 +12,11 @@ body {
     text-align: center;
 }
 
-h2 {
+h1 {
     color: white;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
 
 
@@ -29,27 +34,23 @@ ul {
 }
 
 .card {
-    padding: 5px;
-    margin: 5px;
+    padding: 20px;
+    margin: 20px;
     text-align: center;
     color: gray;
     list-style: none;
     width: 20%;
 }
 
-.card:hover {
+.card:hover img {
     color: white;
+    border-style: solid;
 }
 
 img {
     border-radius: 10px;
     max-width: 170px;
     min-width: 20%;
-}
-
-img:hover {
-    border-color: white;
-    border-style: solid;
 }
 
 .Perfil {
